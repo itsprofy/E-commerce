@@ -4,6 +4,7 @@ services:
     env: docker
     plan: free
     region: oregon
+    rootDir: backend
     healthCheckPath: /api/health
     envVars:
       - key: SPRING_PROFILES_ACTIVE
